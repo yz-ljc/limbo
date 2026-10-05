@@ -1,0 +1,3063 @@
+{
+  "source": "PrismarineJS minecraft-data via npm minecraft-data@3.117.0 (MIT)",
+  "blocks": [
+    {
+      "id": 0,
+      "name": "air",
+      "hardness": 0,
+      "diggable": false,
+      "shapes": 0
+    },
+    {
+      "id": 1,
+      "name": "stone",
+      "hardness": 1.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 2,
+      "name": "grass",
+      "hardness": 0.6,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 3,
+      "name": "dirt",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 4,
+      "name": "cobblestone",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 5,
+      "name": "planks",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 6,
+      "name": "sapling",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 7,
+      "name": "bedrock",
+      "hardness": null,
+      "diggable": false,
+      "shapes": 1
+    },
+    {
+      "id": 8,
+      "name": "flowing_water",
+      "hardness": 100,
+      "diggable": false,
+      "shapes": 0
+    },
+    {
+      "id": 9,
+      "name": "water",
+      "hardness": 100,
+      "diggable": false,
+      "shapes": 0
+    },
+    {
+      "id": 10,
+      "name": "flowing_lava",
+      "hardness": 100,
+      "diggable": false,
+      "shapes": 0
+    },
+    {
+      "id": 11,
+      "name": "lava",
+      "hardness": 100,
+      "diggable": false,
+      "shapes": 0
+    },
+    {
+      "id": 12,
+      "name": "sand",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 13,
+      "name": "gravel",
+      "hardness": 0.6,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 14,
+      "name": "gold_ore",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 15,
+      "name": "iron_ore",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 16,
+      "name": "coal_ore",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 17,
+      "name": "log",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 18,
+      "name": "leaves",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 19,
+      "name": "sponge",
+      "hardness": 0.6,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 20,
+      "name": "glass",
+      "hardness": 0.3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 21,
+      "name": "lapis_ore",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 22,
+      "name": "lapis_block",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 23,
+      "name": "dispenser",
+      "hardness": 3.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 24,
+      "name": "sandstone",
+      "hardness": 0.8,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 25,
+      "name": "noteblock",
+      "hardness": 0.8,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 26,
+      "name": "bed",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": 2
+    },
+    {
+      "id": 27,
+      "name": "golden_rail",
+      "hardness": 0.7,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 28,
+      "name": "detector_rail",
+      "hardness": 0.7,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 29,
+      "name": "sticky_piston",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 30,
+      "name": "web",
+      "hardness": 4,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 31,
+      "name": "tallgrass",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 32,
+      "name": "deadbush",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 33,
+      "name": "piston",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 34,
+      "name": "piston_head",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": [
+        10,
+        11,
+        9,
+        12,
+        13,
+        14,
+        0,
+        0,
+        10,
+        11,
+        9,
+        12,
+        13,
+        14,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 35,
+      "name": "wool",
+      "hardness": 0.8,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 36,
+      "name": "piston_extension",
+      "hardness": null,
+      "diggable": false,
+      "shapes": 0
+    },
+    {
+      "id": 37,
+      "name": "yellow_flower",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 38,
+      "name": "red_flower",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 39,
+      "name": "brown_mushroom",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 40,
+      "name": "red_mushroom",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 41,
+      "name": "gold_block",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 42,
+      "name": "iron_block",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 43,
+      "name": "double_stone_slab",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 44,
+      "name": "stone_slab",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "id": 45,
+      "name": "brick_block",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 46,
+      "name": "tnt",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 47,
+      "name": "bookshelf",
+      "hardness": 1.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 48,
+      "name": "mossy_cobblestone",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 49,
+      "name": "obsidian",
+      "hardness": 50,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 50,
+      "name": "torch",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 51,
+      "name": "fire",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 52,
+      "name": "mob_spawner",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 53,
+      "name": "oak_stairs",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 54,
+      "name": "chest",
+      "hardness": 2.5,
+      "diggable": true,
+      "shapes": 25
+    },
+    {
+      "id": 55,
+      "name": "redstone_wire",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 56,
+      "name": "diamond_ore",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 57,
+      "name": "diamond_block",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 58,
+      "name": "crafting_table",
+      "hardness": 2.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 59,
+      "name": "wheat",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 60,
+      "name": "farmland",
+      "hardness": 0.6,
+      "diggable": true,
+      "shapes": 26
+    },
+    {
+      "id": 61,
+      "name": "furnace",
+      "hardness": 3.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 62,
+      "name": "lit_furnace",
+      "hardness": 3.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 63,
+      "name": "standing_sign",
+      "hardness": 1,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 64,
+      "name": "wooden_door",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": [
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28,
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28
+      ]
+    },
+    {
+      "id": 65,
+      "name": "ladder",
+      "hardness": 0.4,
+      "diggable": true,
+      "shapes": [
+        27,
+        27,
+        27,
+        29,
+        30,
+        28,
+        27,
+        27,
+        27,
+        29,
+        30,
+        28,
+        27,
+        27,
+        27,
+        29
+      ]
+    },
+    {
+      "id": 66,
+      "name": "rail",
+      "hardness": 0.7,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 67,
+      "name": "stone_stairs",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 68,
+      "name": "wall_sign",
+      "hardness": 1,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 69,
+      "name": "lever",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 70,
+      "name": "stone_pressure_plate",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 71,
+      "name": "iron_door",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": [
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28,
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28
+      ]
+    },
+    {
+      "id": 72,
+      "name": "wooden_pressure_plate",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 73,
+      "name": "redstone_ore",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 74,
+      "name": "lit_redstone_ore",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 75,
+      "name": "unlit_redstone_torch",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 76,
+      "name": "redstone_torch",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 77,
+      "name": "stone_button",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 78,
+      "name": "snow_layer",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": [
+        0,
+        31,
+        32,
+        33,
+        15,
+        34,
+        4,
+        35,
+        0,
+        31,
+        32,
+        33,
+        15,
+        34,
+        4,
+        35
+      ]
+    },
+    {
+      "id": 79,
+      "name": "ice",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 80,
+      "name": "snow",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 81,
+      "name": "cactus",
+      "hardness": 0.4,
+      "diggable": true,
+      "shapes": 36
+    },
+    {
+      "id": 82,
+      "name": "clay",
+      "hardness": 0.6,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 83,
+      "name": "reeds",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 84,
+      "name": "jukebox",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 85,
+      "name": "fence",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 37
+    },
+    {
+      "id": 86,
+      "name": "pumpkin",
+      "hardness": 1,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 87,
+      "name": "netherrack",
+      "hardness": 0.4,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 88,
+      "name": "soul_sand",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 35
+    },
+    {
+      "id": 89,
+      "name": "glowstone",
+      "hardness": 0.3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 90,
+      "name": "portal",
+      "hardness": null,
+      "diggable": false,
+      "shapes": 0
+    },
+    {
+      "id": 91,
+      "name": "lit_pumpkin",
+      "hardness": 1,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 92,
+      "name": "cake",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 93,
+      "name": "unpowered_repeater",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 31
+    },
+    {
+      "id": 94,
+      "name": "powered_repeater",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 31
+    },
+    {
+      "id": 95,
+      "name": "stained_glass",
+      "hardness": 0.3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 96,
+      "name": "trapdoor",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": [
+        45,
+        45,
+        45,
+        45,
+        27,
+        29,
+        30,
+        28,
+        46,
+        46,
+        46,
+        46,
+        27,
+        29,
+        30,
+        28
+      ]
+    },
+    {
+      "id": 97,
+      "name": "monster_egg",
+      "hardness": 0.75,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 98,
+      "name": "stonebrick",
+      "hardness": 1.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 99,
+      "name": "brown_mushroom_block",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 100,
+      "name": "red_mushroom_block",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 101,
+      "name": "iron_bars",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": 47
+    },
+    {
+      "id": 102,
+      "name": "glass_pane",
+      "hardness": 0.3,
+      "diggable": true,
+      "shapes": 47
+    },
+    {
+      "id": 103,
+      "name": "melon_block",
+      "hardness": 1,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 104,
+      "name": "pumpkin_stem",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 105,
+      "name": "melon_stem",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 106,
+      "name": "vine",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 107,
+      "name": "fence_gate",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0,
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 108,
+      "name": "brick_stairs",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 109,
+      "name": "stone_brick_stairs",
+      "hardness": 1.5,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 110,
+      "name": "mycelium",
+      "hardness": 0.6,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 111,
+      "name": "waterlily",
+      "hardness": 0.6,
+      "diggable": true,
+      "shapes": 50
+    },
+    {
+      "id": 112,
+      "name": "nether_brick",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 113,
+      "name": "nether_brick_fence",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 37
+    },
+    {
+      "id": 114,
+      "name": "nether_brick_stairs",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 115,
+      "name": "nether_wart",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 116,
+      "name": "enchanting_table",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": 4
+    },
+    {
+      "id": 117,
+      "name": "brewing_stand",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 51
+    },
+    {
+      "id": 118,
+      "name": "cauldron",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 52
+    },
+    {
+      "id": 119,
+      "name": "end_portal",
+      "hardness": null,
+      "diggable": false,
+      "shapes": 0
+    },
+    {
+      "id": 120,
+      "name": "end_portal_frame",
+      "hardness": null,
+      "diggable": false,
+      "shapes": [
+        81,
+        81,
+        81,
+        81,
+        82,
+        82,
+        82,
+        82,
+        81,
+        81,
+        81,
+        81,
+        82,
+        82,
+        82,
+        82
+      ]
+    },
+    {
+      "id": 121,
+      "name": "end_stone",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 122,
+      "name": "dragon_egg",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 53
+    },
+    {
+      "id": 123,
+      "name": "redstone_lamp",
+      "hardness": 0.3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 124,
+      "name": "lit_redstone_lamp",
+      "hardness": 0.3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 125,
+      "name": "double_wooden_slab",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 126,
+      "name": "wooden_slab",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "id": 127,
+      "name": "cocoa",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": [
+        55,
+        56,
+        54,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 128,
+      "name": "sandstone_stairs",
+      "hardness": 0.8,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 129,
+      "name": "emerald_ore",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 130,
+      "name": "ender_chest",
+      "hardness": 22.5,
+      "diggable": true,
+      "shapes": 25
+    },
+    {
+      "id": 131,
+      "name": "tripwire_hook",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 132,
+      "name": "tripwire",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 133,
+      "name": "emerald_block",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 134,
+      "name": "spruce_stairs",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 135,
+      "name": "birch_stairs",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 136,
+      "name": "jungle_stairs",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 137,
+      "name": "command_block",
+      "hardness": null,
+      "diggable": false,
+      "shapes": 1
+    },
+    {
+      "id": 138,
+      "name": "beacon",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 139,
+      "name": "cobblestone_wall",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 66
+    },
+    {
+      "id": 140,
+      "name": "flower_pot",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 67
+    },
+    {
+      "id": 141,
+      "name": "carrots",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 142,
+      "name": "potatoes",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 143,
+      "name": "wooden_button",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 144,
+      "name": "skull",
+      "hardness": 1,
+      "diggable": true,
+      "shapes": [
+        69,
+        69,
+        68,
+        70,
+        71,
+        72,
+        69,
+        69,
+        69,
+        69,
+        68,
+        70,
+        71,
+        72,
+        69,
+        69
+      ]
+    },
+    {
+      "id": 145,
+      "name": "anvil",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": [
+        73,
+        74,
+        73,
+        74,
+        73,
+        74,
+        73,
+        74,
+        73,
+        74,
+        73,
+        74,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 146,
+      "name": "trapped_chest",
+      "hardness": 2.5,
+      "diggable": true,
+      "shapes": 25
+    },
+    {
+      "id": 147,
+      "name": "light_weighted_pressure_plate",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 148,
+      "name": "heavy_weighted_pressure_plate",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 149,
+      "name": "unpowered_comparator",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 31
+    },
+    {
+      "id": 150,
+      "name": "powered_comparator",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 31
+    },
+    {
+      "id": 151,
+      "name": "daylight_detector",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": 33
+    },
+    {
+      "id": 152,
+      "name": "redstone_block",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 153,
+      "name": "quartz_ore",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 154,
+      "name": "hopper",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": 75
+    },
+    {
+      "id": 155,
+      "name": "quartz_block",
+      "hardness": 0.8,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 156,
+      "name": "quartz_stairs",
+      "hardness": 0.8,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 157,
+      "name": "activator_rail",
+      "hardness": 0.7,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 158,
+      "name": "dropper",
+      "hardness": 3.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 159,
+      "name": "stained_hardened_clay",
+      "hardness": 1.25,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 160,
+      "name": "stained_glass_pane",
+      "hardness": 0.3,
+      "diggable": true,
+      "shapes": 47
+    },
+    {
+      "id": 161,
+      "name": "leaves2",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 162,
+      "name": "log2",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 163,
+      "name": "acacia_stairs",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 164,
+      "name": "dark_oak_stairs",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 165,
+      "name": "slime",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 166,
+      "name": "barrier",
+      "hardness": null,
+      "diggable": false,
+      "shapes": 1
+    },
+    {
+      "id": 167,
+      "name": "iron_trapdoor",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": [
+        45,
+        45,
+        45,
+        45,
+        27,
+        29,
+        30,
+        28,
+        46,
+        46,
+        46,
+        46,
+        27,
+        29,
+        30,
+        28
+      ]
+    },
+    {
+      "id": 168,
+      "name": "prismarine",
+      "hardness": 1.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 169,
+      "name": "sea_lantern",
+      "hardness": 0.3,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 170,
+      "name": "hay_block",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 171,
+      "name": "carpet",
+      "hardness": 0.1,
+      "diggable": true,
+      "shapes": 76
+    },
+    {
+      "id": 172,
+      "name": "hardened_clay",
+      "hardness": 1.25,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 173,
+      "name": "coal_block",
+      "hardness": 5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 174,
+      "name": "packed_ice",
+      "hardness": 0.5,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 175,
+      "name": "double_plant",
+      "hardness": 0,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 176,
+      "name": "standing_banner",
+      "hardness": 1,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 177,
+      "name": "wall_banner",
+      "hardness": 1,
+      "diggable": true,
+      "shapes": 0
+    },
+    {
+      "id": 178,
+      "name": "daylight_detector_inverted",
+      "hardness": 0.2,
+      "diggable": true,
+      "shapes": 33
+    },
+    {
+      "id": 179,
+      "name": "red_sandstone",
+      "hardness": 0.8,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 180,
+      "name": "red_sandstone_stairs",
+      "hardness": 0.8,
+      "diggable": true,
+      "shapes": [
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24,
+        18,
+        19,
+        20,
+        17,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 181,
+      "name": "double_stone_slab2",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 1
+    },
+    {
+      "id": 182,
+      "name": "stone_slab2",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "id": 183,
+      "name": "spruce_fence_gate",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0,
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 184,
+      "name": "birch_fence_gate",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0,
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 185,
+      "name": "jungle_fence_gate",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0,
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 186,
+      "name": "dark_oak_fence_gate",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0,
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 187,
+      "name": "acacia_fence_gate",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": [
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0,
+        48,
+        49,
+        48,
+        49,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 188,
+      "name": "spruce_fence",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 37
+    },
+    {
+      "id": 189,
+      "name": "birch_fence",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 37
+    },
+    {
+      "id": 190,
+      "name": "jungle_fence",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 37
+    },
+    {
+      "id": 191,
+      "name": "dark_oak_fence",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 37
+    },
+    {
+      "id": 192,
+      "name": "acacia_fence",
+      "hardness": 2,
+      "diggable": true,
+      "shapes": 37
+    },
+    {
+      "id": 193,
+      "name": "spruce_door",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": [
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28,
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28
+      ]
+    },
+    {
+      "id": 194,
+      "name": "birch_door",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": [
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28,
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28
+      ]
+    },
+    {
+      "id": 195,
+      "name": "jungle_door",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": [
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28,
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28
+      ]
+    },
+    {
+      "id": 196,
+      "name": "acacia_door",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": [
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28,
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28
+      ]
+    },
+    {
+      "id": 197,
+      "name": "dark_oak_door",
+      "hardness": 3,
+      "diggable": true,
+      "shapes": [
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28,
+        28,
+        29,
+        30,
+        27,
+        29,
+        30,
+        27,
+        28
+      ]
+    }
+  ],
+  "shapes": {
+    "0": [],
+    "1": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "2": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.5625,
+        1
+      ]
+    ],
+    "3": [
+      [
+        0,
+        0.25,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "4": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.75,
+        1
+      ]
+    ],
+    "5": [
+      [
+        0,
+        0,
+        0.25,
+        1,
+        1,
+        1
+      ]
+    ],
+    "6": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0.75
+      ]
+    ],
+    "7": [
+      [
+        0.25,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "8": [
+      [
+        0,
+        0,
+        0,
+        0.75,
+        1,
+        1
+      ]
+    ],
+    "9": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0.25
+      ],
+      [
+        0.375,
+        0.375,
+        0.25,
+        0.625,
+        0.625,
+        1.25
+      ]
+    ],
+    "10": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.25,
+        1
+      ],
+      [
+        0.375,
+        0.25,
+        0.375,
+        0.625,
+        1.25,
+        0.625
+      ]
+    ],
+    "11": [
+      [
+        0,
+        0.75,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0.375,
+        -0.25,
+        0.375,
+        0.625,
+        0.75,
+        0.625
+      ]
+    ],
+    "12": [
+      [
+        0,
+        0,
+        0.75,
+        1,
+        1,
+        1
+      ],
+      [
+        0.375,
+        0.375,
+        -0.25,
+        0.625,
+        0.625,
+        0.75
+      ]
+    ],
+    "13": [
+      [
+        0,
+        0,
+        0,
+        0.25,
+        1,
+        1
+      ],
+      [
+        0.25,
+        0.375,
+        0.375,
+        1.25,
+        0.625,
+        0.625
+      ]
+    ],
+    "14": [
+      [
+        0.75,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        -0.25,
+        0.375,
+        0.375,
+        0.75,
+        0.625,
+        0.625
+      ]
+    ],
+    "15": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.5,
+        1
+      ]
+    ],
+    "16": [
+      [
+        0,
+        0.5,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "17": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.5,
+        1
+      ],
+      [
+        0,
+        0.5,
+        0,
+        1,
+        1,
+        0.5
+      ]
+    ],
+    "18": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.5,
+        1
+      ],
+      [
+        0.5,
+        0.5,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "19": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.5,
+        1
+      ],
+      [
+        0,
+        0.5,
+        0,
+        0.5,
+        1,
+        1
+      ]
+    ],
+    "20": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.5,
+        1
+      ],
+      [
+        0,
+        0.5,
+        0.5,
+        1,
+        1,
+        1
+      ]
+    ],
+    "21": [
+      [
+        0,
+        0.5,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0.5,
+        0,
+        0,
+        1,
+        0.5,
+        1
+      ]
+    ],
+    "22": [
+      [
+        0,
+        0.5,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0.5,
+        0.5,
+        1
+      ]
+    ],
+    "23": [
+      [
+        0,
+        0.5,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0.5,
+        1,
+        0.5,
+        1
+      ]
+    ],
+    "24": [
+      [
+        0,
+        0.5,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0.5,
+        0.5
+      ]
+    ],
+    "25": [
+      [
+        0.0625,
+        0,
+        0.0625,
+        0.9375,
+        0.875,
+        0.9375
+      ]
+    ],
+    "26": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.9375,
+        1
+      ]
+    ],
+    "27": [
+      [
+        0,
+        0,
+        0.8125,
+        1,
+        1,
+        1
+      ]
+    ],
+    "28": [
+      [
+        0,
+        0,
+        0,
+        0.1875,
+        1,
+        1
+      ]
+    ],
+    "29": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0.1875
+      ]
+    ],
+    "30": [
+      [
+        0.8125,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "31": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.125,
+        1
+      ]
+    ],
+    "32": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.25,
+        1
+      ]
+    ],
+    "33": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.375,
+        1
+      ]
+    ],
+    "34": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.625,
+        1
+      ]
+    ],
+    "35": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.875,
+        1
+      ]
+    ],
+    "36": [
+      [
+        0.0625,
+        0,
+        0.0625,
+        0.9375,
+        0.9375,
+        0.9375
+      ]
+    ],
+    "37": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1.5,
+        0.625
+      ]
+    ],
+    "38": [
+      [
+        0.0625,
+        0,
+        0.0625,
+        0.9375,
+        0.5,
+        0.9375
+      ]
+    ],
+    "39": [
+      [
+        0.1875,
+        0,
+        0.0625,
+        0.9375,
+        0.5,
+        0.9375
+      ]
+    ],
+    "40": [
+      [
+        0.3125,
+        0,
+        0.0625,
+        0.9375,
+        0.5,
+        0.9375
+      ]
+    ],
+    "41": [
+      [
+        0.4375,
+        0,
+        0.0625,
+        0.9375,
+        0.5,
+        0.9375
+      ]
+    ],
+    "42": [
+      [
+        0.5625,
+        0,
+        0.0625,
+        0.9375,
+        0.5,
+        0.9375
+      ]
+    ],
+    "43": [
+      [
+        0.6875,
+        0,
+        0.0625,
+        0.9375,
+        0.5,
+        0.9375
+      ]
+    ],
+    "44": [
+      [
+        0.8125,
+        0,
+        0.0625,
+        0.9375,
+        0.5,
+        0.9375
+      ]
+    ],
+    "45": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.1875,
+        1
+      ]
+    ],
+    "46": [
+      [
+        0,
+        0.8125,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "47": [
+      [
+        0.4375,
+        0,
+        0.4375,
+        0.5625,
+        1,
+        0.5625
+      ]
+    ],
+    "48": [
+      [
+        0,
+        0,
+        0.375,
+        1,
+        1.5,
+        0.625
+      ]
+    ],
+    "49": [
+      [
+        0.375,
+        0,
+        0,
+        0.625,
+        1.5,
+        1
+      ]
+    ],
+    "50": [
+      [
+        0.0625,
+        0,
+        0.0625,
+        0.9375,
+        0.09375,
+        0.9375
+      ]
+    ],
+    "51": [
+      [
+        0.4375,
+        0,
+        0.4375,
+        0.5625,
+        0.875,
+        0.5625
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0.125,
+        1
+      ]
+    ],
+    "52": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.3125,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0.125,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0.125
+      ],
+      [
+        0.875,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0.875,
+        1,
+        1,
+        1
+      ]
+    ],
+    "53": [
+      [
+        0.0625,
+        0,
+        0.0625,
+        0.9375,
+        1,
+        0.9375
+      ]
+    ],
+    "54": [
+      [
+        0.375,
+        0.4375,
+        0.0625,
+        0.625,
+        0.75,
+        0.3125
+      ]
+    ],
+    "55": [
+      [
+        0.375,
+        0.4375,
+        0.6875,
+        0.625,
+        0.75,
+        0.9375
+      ]
+    ],
+    "56": [
+      [
+        0.0625,
+        0.4375,
+        0.375,
+        0.3125,
+        0.75,
+        0.625
+      ]
+    ],
+    "57": [
+      [
+        0.6875,
+        0.4375,
+        0.375,
+        0.9375,
+        0.75,
+        0.625
+      ]
+    ],
+    "58": [
+      [
+        0.3125,
+        0.3125,
+        0.5625,
+        0.6875,
+        0.75,
+        0.9375
+      ]
+    ],
+    "59": [
+      [
+        0.0625,
+        0.3125,
+        0.3125,
+        0.4375,
+        0.75,
+        0.6875
+      ]
+    ],
+    "60": [
+      [
+        0.3125,
+        0.3125,
+        0.0625,
+        0.6875,
+        0.75,
+        0.4375
+      ]
+    ],
+    "61": [
+      [
+        0.5625,
+        0.3125,
+        0.3125,
+        0.9375,
+        0.75,
+        0.6875
+      ]
+    ],
+    "62": [
+      [
+        0.25,
+        0.1875,
+        0.4375,
+        0.75,
+        0.75,
+        0.9375
+      ]
+    ],
+    "63": [
+      [
+        0.0625,
+        0.1875,
+        0.25,
+        0.5625,
+        0.75,
+        0.75
+      ]
+    ],
+    "64": [
+      [
+        0.25,
+        0.1875,
+        0.0625,
+        0.75,
+        0.75,
+        0.5625
+      ]
+    ],
+    "65": [
+      [
+        0.4375,
+        0.1875,
+        0.25,
+        0.9375,
+        0.75,
+        0.75
+      ]
+    ],
+    "66": [
+      [
+        0.25,
+        0,
+        0.25,
+        0.75,
+        1.5,
+        0.75
+      ]
+    ],
+    "67": [
+      [
+        0.3125,
+        0,
+        0.3125,
+        0.6875,
+        0.375,
+        0.6875
+      ]
+    ],
+    "68": [
+      [
+        0.25,
+        0.25,
+        0.5,
+        0.75,
+        0.75,
+        1
+      ]
+    ],
+    "69": [
+      [
+        0.25,
+        0,
+        0.25,
+        0.75,
+        0.5,
+        0.75
+      ]
+    ],
+    "70": [
+      [
+        0.25,
+        0.25,
+        0,
+        0.75,
+        0.75,
+        0.5
+      ]
+    ],
+    "71": [
+      [
+        0.5,
+        0.25,
+        0.25,
+        1,
+        0.75,
+        0.75
+      ]
+    ],
+    "72": [
+      [
+        0,
+        0.25,
+        0.25,
+        0.5,
+        0.75,
+        0.75
+      ]
+    ],
+    "73": [
+      [
+        0.125,
+        0,
+        0,
+        0.875,
+        1,
+        1
+      ]
+    ],
+    "74": [
+      [
+        0,
+        0,
+        0.125,
+        1,
+        1,
+        0.875
+      ]
+    ],
+    "75": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.625,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0.125,
+        1,
+        1
+      ],
+      [
+        0.875,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0.125
+      ],
+      [
+        0,
+        0,
+        0.875,
+        1,
+        1,
+        1
+      ]
+    ],
+    "76": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.0625,
+        1
+      ]
+    ],
+    "81": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.8125,
+        1
+      ]
+    ],
+    "82": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0.8125,
+        1
+      ],
+      [
+        0.3125,
+        0.8125,
+        0.3125,
+        0.6875,
+        1,
+        0.6875
+      ]
+    ]
+  }
+}

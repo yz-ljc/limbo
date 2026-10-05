@@ -1,0 +1,12 @@
+{
+  "name": "limbo-protocol-smoke",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent Minecraft client compatibility probes for Limbo",
+  "scripts": {
+    "test": "node smoke.cjs"
+  },
+  "dependencies": {
+    "minecraft-protocol": "1.68.0"
+  }
+}

@@ -1,59 +1,25 @@
 package top.yzljc.limbo.network;
 
 import io.netty.buffer.ByteBuf;
+import io.netty.handler.codec.CorruptedFrameException;
 
 public final class VarInts {
-
-    private VarInts() {
-    }
-
+    private VarInts() {}
     public static int read(ByteBuf buf) {
-
         int value = 0;
-        int position = 0;
-
-        byte current;
-
-        do {
-
-            current = buf.readByte();
-
-            value |=
-                    (current & 0x7F)
-                            << position;
-
-            position += 7;
-
-            if (position >= 32) {
-                throw new RuntimeException(
-                        "VarInt too big"
-                );
-            }
-
-        } while ((current & 0x80) != 0);
-
-        return value;
+        for (int i = 0; i < 5; i++) {
+            int b = buf.readUnsignedByte();
+            if (i == 4 && (b & 0xf0) != 0) throw new CorruptedFrameException("VarInt exceeds 32 bits");
+            value |= (b & 0x7f) << (7 * i);
+            if ((b & 0x80) == 0) return value;
+        }
+        throw new CorruptedFrameException("VarInt exceeds five bytes");
     }
-
-    public static void write(
-            ByteBuf buf,
-            int value
-    ) {
-
+    public static void write(ByteBuf buf, int value) {
         do {
-
-            byte temp =
-                    (byte) (value & 0x7F);
-
+            int b = value & 0x7f;
             value >>>= 7;
-
-            if (value != 0) {
-                temp |= 0x80;
-            }
-
-            buf.writeByte(temp);
-
+            buf.writeByte(value == 0 ? b : b | 0x80);
         } while (value != 0);
-
     }
 }
