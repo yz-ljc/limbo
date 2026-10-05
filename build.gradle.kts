@@ -52,7 +52,7 @@ tasks.jar {
 distributions {
     main {
         contents {
-            from("README.md", "limbo.properties", "THIRD_PARTY_NOTICES.md")
+            from("README.md", "LICENSE", "limbo.properties", "THIRD_PARTY_NOTICES.md")
             from("licenses") { into("licenses") }
             from("worlds") { into("worlds") }
         }

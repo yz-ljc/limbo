@@ -211,6 +211,10 @@ spawn-pitch=0
 
 构建依赖为 ViaVersion 5.12.0。使用本地依赖时，可通过 `-PviaJar=libs/ViaVersion-5.12.0.jar` 指定对应版本的官方 JAR。
 
+## 开源协议
+
+本项目采用 GNU General Public License v3.0 或更新版本（`GPL-3.0-or-later`）授权，详见 [LICENSE](LICENSE)。第三方组件及资源遵循各自的许可证。
+
 ## 第三方组件
 
 项目基于 Netty 和 ViaVersion，最初参考 [LOOHP/Limbo](https://github.com/LOOHP/Limbo)。第三方组件来源与许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，许可证文本位于 `licenses/`。
